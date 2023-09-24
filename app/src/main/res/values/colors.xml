@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Green_card">#A8DF8E</color>
+    <color name="pink_card">#FFBFBF</color>
+    <color name="navyBlue_optionCard">#593fe4</color>
+    <color name="lightPurple_mainBackground">#e7e7f7</color>
+</resources>
