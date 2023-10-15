@@ -30,7 +30,9 @@ class HomeFragment : Fragment() {
         val listMembers = listOf<MemberModel>(
             MemberModel( "Knight"),
             MemberModel("Rex"),
-            MemberModel("Mancy Momoland"),
+            MemberModel("Nancy Momoland"),
+            MemberModel("Fury"),
+            MemberModel("King"),
 
         )
         val adaptor = MemberAdaptor(listMembers)

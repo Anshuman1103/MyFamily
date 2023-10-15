@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class ManAciivity : AppCompatActivity() {
+class ManActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -15,7 +15,7 @@ class ManAciivity : AppCompatActivity() {
         bottomBar.setOnItemSelectedListener { menuItem ->
 
             when (menuItem.itemId) {
-                R.id.nav_support -> {
+                R.id.nav_guard -> {
                     inflateFragment(GuardFragment.newInstance())
                 }
 
@@ -23,11 +23,11 @@ class ManAciivity : AppCompatActivity() {
                     inflateFragment(HomeFragment.newInstance())
                 }
 
-                R.id.nav_chat -> {
+                R.id.nav_dashboard -> {
                     inflateFragment(DashboardFragment.newInstance())
                 }
 
-                R.id.nav_help -> {
+                R.id.nav_profile -> {
                     inflateFragment(ProfileFragment.newInstance())
                 }
             }
